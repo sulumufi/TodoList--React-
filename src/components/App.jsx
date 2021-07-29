@@ -33,7 +33,7 @@ function App() {
       </div>
       <div>
         <ul>
-          <List list={listItems} />
+          <List list={listItems} useState_set = {setListItems} />
         </ul>
       </div>
     </div>
